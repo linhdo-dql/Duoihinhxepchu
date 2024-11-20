@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game_DuoiHinhXepChu</string>
+    <string name="b_t_u" translatable="false">Start</string>
+    <string name="ti_p_t_c">Resume</string>
+    <string name="i_m_cao">High Soccer</string>
+    <string name="tho_t" translatable="false">Exit</string>
+    <string name="c_p">"         Level:"</string>
+    <string name="p_n">Your Answer:</string>
+    <string name="ti_n">Coin:</string>
+    <string name="v_ng">Coin:</string>
+    <string name="i_c_u_h_i">Change Question!</string>
+    <string name="g_i">Tips</string>
+</resources>

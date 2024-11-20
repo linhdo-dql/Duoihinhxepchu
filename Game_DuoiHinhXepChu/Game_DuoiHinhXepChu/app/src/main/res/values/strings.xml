@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Game_DuoiHinhXepChu</string>
+    <string name="b_t_u">Bắt Đầu</string>
+    <string name="ti_p_t_c">Tiếp Tục</string>
+    <string name="i_m_cao">Điểm Cao</string>
+    <string name="tho_t">Thoát</string>
+    <string name="c_p">Cấp Độ:</string>
+    <string name="p_n">Đáp Án:</string>
+    <string name="ti_n">Tiền</string>
+    <string name="v_ng">Vàng:</string>
+    <string name="i_c_u_h_i">Đổi Câu Hỏi</string>
+    <string name="g_i">Gợi Ý</string>
+
+</resources>

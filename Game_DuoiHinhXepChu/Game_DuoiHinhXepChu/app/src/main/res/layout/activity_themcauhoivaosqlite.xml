@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".themcauhoivaosqlite">
+    <EditText
+        android:id="@+id/a1"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:hint="Tên"/>
+    <ImageView
+        android:id="@+id/a3"
+        android:layout_below="@id/btnChangeImage"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cau1jpg"
+    />
+    <Button
+        android:id="@+id/btnChangeImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/a1"
+        android:text="Đổi Ảnh"/>
+    <EditText
+        android:id="@+id/a4"
+        android:layout_below="@id/a3"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:hint="Đáp án"/>
+    <Button
+        android:id="@+id/a5"
+        android:layout_below="@id/a4"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Thêm"/>
+
+
+</RelativeLayout>

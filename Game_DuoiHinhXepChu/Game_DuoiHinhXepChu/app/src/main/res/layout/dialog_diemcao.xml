@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="#FFFF00">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/colorAccent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/t1"
+        android:background="#FF4081" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="BẢNG THÀNH TÍCH"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/t1"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"/>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/t2"
+        android:background="@color/colorAccent" />
+    <ListView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/t3"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bogocduocchon"/>
+</RelativeLayout>
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#40C4FF"
+            android:outlineSpotShadowColor="#ffffff"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/sback"/>
+
+        <TextView
+            android:id="@+id/txtten"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="false"
+            android:layout_centerInParent="true"
+            android:text="Cấp Độ: "
+            android:textAlignment="center"
+            android:textColor="#FFFF00"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/anhcauhoi"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/anhdebai1"
+            android:layout_margin="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            tools:ignore="InvalidId" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/txtctl"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Đáp Án:"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:shadowColor="#7C4DFF"
+            android:shadowDy="1.5"
+            android:shadowDx="1.5"
+            android:shadowRadius="2"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"/>
+
+        <GridView
+            android:id="@+id/listCTL"
+            android:layout_below="@id/txtctl"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <GridView
+            android:id="@+id/listGY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

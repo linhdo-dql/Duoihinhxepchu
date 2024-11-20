@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/y"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/logo">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/batdau"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/batdau"
+            android:paddingBottom="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="10"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/b_t_u"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/choitiep"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/batdau"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/choitiep"
+            android:paddingBottom="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="10"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/ti_p_t_c"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BXH"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/choitiep"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bxh"
+            android:paddingBottom="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="10"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/i_m_cao"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/thoat"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/BXH"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/thoat"
+            android:paddingBottom="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="10"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/tho_t"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/volume"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/splay" />
+
+        <ImageButton
+            android:id="@+id/btnlanguage"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_toEndOf="@id/volume"
+            android:layout_toRightOf="@id/volume"
+            android:background="@mipmap/slang" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_toStartOf="@id/volume"
+            android:layout_toLeftOf="@id/volume"
+            android:background="@mipmap/slink" />
+
+    </RelativeLayout>
+
+</LinearLayout>
